@@ -1,0 +1,2078 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`check constructor three categories in the product editor 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="card"
+      >
+        <div
+          class="card-body"
+        >
+          <h5
+            class="title mb-3"
+          >
+            <span>
+              Product Editor
+            </span>
+          </h5>
+          <form>
+            <div
+              class="form-group"
+            >
+              <label
+                for="nameName"
+              >
+                Name
+              </label>
+              <input
+                class="form-control"
+                data-testid="idName"
+                id="idName"
+                name="nameName"
+                required=""
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="form-group"
+            >
+              <label
+                for="namePrice"
+              >
+                Price
+              </label>
+              <input
+                class="form-control"
+                data-testid="idPrice"
+                id="idPrice"
+                max="200000"
+                min="0"
+                name="namePrice"
+                step="0.001"
+                type="number"
+                value="0"
+              />
+            </div>
+            <div
+              class="form-group"
+            >
+              <label
+                for="nameCategorySelector"
+              >
+                Category
+              </label>
+              <div
+                class="form-control css-b62m3t-container"
+                id="idCategorySelector"
+              >
+                <span
+                  class="css-1f43avz-a11yText-A11yText"
+                  id="react-select-2-live-region"
+                />
+                <span
+                  aria-atomic="false"
+                  aria-live="polite"
+                  aria-relevant="additions text"
+                  class="css-1f43avz-a11yText-A11yText"
+                />
+                <div
+                  class=" css-1s2u09g-control"
+                >
+                  <div
+                    class=" css-319lph-ValueContainer"
+                  >
+                    <div
+                      class=" css-qc6sy-singleValue"
+                    />
+                    <div
+                      class=" css-14dclt2-Input"
+                      data-value=""
+                    >
+                      <input
+                        aria-autocomplete="list"
+                        aria-controls="react-select-2-listbox"
+                        aria-expanded="false"
+                        aria-haspopup="true"
+                        aria-owns="react-select-2-listbox"
+                        autocapitalize="none"
+                        autocomplete="off"
+                        autocorrect="off"
+                        class=""
+                        id="react-select-2-input"
+                        role="combobox"
+                        spellcheck="false"
+                        style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                        tabindex="0"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class=" css-1hb7zxy-IndicatorsContainer"
+                  >
+                    <span
+                      class=" css-1okebmr-indicatorSeparator"
+                    />
+                    <div
+                      aria-hidden="true"
+                      class=" css-tlfecz-indicatorContainer"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="css-tj5bde-Svg"
+                        focusable="false"
+                        height="20"
+                        viewBox="0 0 20 20"
+                        width="20"
+                      >
+                        <path
+                          d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <input
+                  name="nameCategorySelector"
+                  type="hidden"
+                  value="0"
+                />
+              </div>
+            </div>
+            <div
+              class="d-grid gap-2"
+            >
+              <button
+                class="btn btn-success btn-lg"
+                data-testid="idSubmitButton"
+                disabled=""
+                id="idSubmitButton"
+                type="submit"
+              >
+                <i
+                  class="fas fa-database"
+                />
+                add
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="card"
+    >
+      <div
+        class="card-body"
+      >
+        <h5
+          class="title mb-3"
+        >
+          <span>
+            Product Editor
+          </span>
+        </h5>
+        <form>
+          <div
+            class="form-group"
+          >
+            <label
+              for="nameName"
+            >
+              Name
+            </label>
+            <input
+              class="form-control"
+              data-testid="idName"
+              id="idName"
+              name="nameName"
+              required=""
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="form-group"
+          >
+            <label
+              for="namePrice"
+            >
+              Price
+            </label>
+            <input
+              class="form-control"
+              data-testid="idPrice"
+              id="idPrice"
+              max="200000"
+              min="0"
+              name="namePrice"
+              step="0.001"
+              type="number"
+              value="0"
+            />
+          </div>
+          <div
+            class="form-group"
+          >
+            <label
+              for="nameCategorySelector"
+            >
+              Category
+            </label>
+            <div
+              class="form-control css-b62m3t-container"
+              id="idCategorySelector"
+            >
+              <span
+                class="css-1f43avz-a11yText-A11yText"
+                id="react-select-2-live-region"
+              />
+              <span
+                aria-atomic="false"
+                aria-live="polite"
+                aria-relevant="additions text"
+                class="css-1f43avz-a11yText-A11yText"
+              />
+              <div
+                class=" css-1s2u09g-control"
+              >
+                <div
+                  class=" css-319lph-ValueContainer"
+                >
+                  <div
+                    class=" css-qc6sy-singleValue"
+                  />
+                  <div
+                    class=" css-14dclt2-Input"
+                    data-value=""
+                  >
+                    <input
+                      aria-autocomplete="list"
+                      aria-controls="react-select-2-listbox"
+                      aria-expanded="false"
+                      aria-haspopup="true"
+                      aria-owns="react-select-2-listbox"
+                      autocapitalize="none"
+                      autocomplete="off"
+                      autocorrect="off"
+                      class=""
+                      id="react-select-2-input"
+                      role="combobox"
+                      spellcheck="false"
+                      style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                      tabindex="0"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class=" css-1hb7zxy-IndicatorsContainer"
+                >
+                  <span
+                    class=" css-1okebmr-indicatorSeparator"
+                  />
+                  <div
+                    aria-hidden="true"
+                    class=" css-tlfecz-indicatorContainer"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="css-tj5bde-Svg"
+                      focusable="false"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      width="20"
+                    >
+                      <path
+                        d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <input
+                name="nameCategorySelector"
+                type="hidden"
+                value="0"
+              />
+            </div>
+          </div>
+          <div
+            class="d-grid gap-2"
+          >
+            <button
+              class="btn btn-success btn-lg"
+              data-testid="idSubmitButton"
+              disabled=""
+              id="idSubmitButton"
+              type="submit"
+            >
+              <i
+                class="fas fa-database"
+              />
+              add
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`check constructor two categories in the product editor 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="card"
+      >
+        <div
+          class="card-body"
+        >
+          <h5
+            class="title mb-3"
+          >
+            <span>
+              Product Editor
+            </span>
+          </h5>
+          <form>
+            <div
+              class="form-group"
+            >
+              <label
+                for="nameName"
+              >
+                Name
+              </label>
+              <input
+                class="form-control"
+                data-testid="idName"
+                id="idName"
+                name="nameName"
+                required=""
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="form-group"
+            >
+              <label
+                for="namePrice"
+              >
+                Price
+              </label>
+              <input
+                class="form-control"
+                data-testid="idPrice"
+                id="idPrice"
+                max="200000"
+                min="0"
+                name="namePrice"
+                step="0.001"
+                type="number"
+                value="0"
+              />
+            </div>
+            <div
+              class="form-group"
+            >
+              <label
+                for="nameCategorySelector"
+              >
+                Category
+              </label>
+              <div
+                class="form-control css-b62m3t-container"
+                id="idCategorySelector"
+              >
+                <span
+                  class="css-1f43avz-a11yText-A11yText"
+                  id="react-select-3-live-region"
+                />
+                <span
+                  aria-atomic="false"
+                  aria-live="polite"
+                  aria-relevant="additions text"
+                  class="css-1f43avz-a11yText-A11yText"
+                />
+                <div
+                  class=" css-1s2u09g-control"
+                >
+                  <div
+                    class=" css-319lph-ValueContainer"
+                  >
+                    <div
+                      class=" css-qc6sy-singleValue"
+                    />
+                    <div
+                      class=" css-14dclt2-Input"
+                      data-value=""
+                    >
+                      <input
+                        aria-autocomplete="list"
+                        aria-controls="react-select-3-listbox"
+                        aria-expanded="false"
+                        aria-haspopup="true"
+                        aria-owns="react-select-3-listbox"
+                        autocapitalize="none"
+                        autocomplete="off"
+                        autocorrect="off"
+                        class=""
+                        id="react-select-3-input"
+                        role="combobox"
+                        spellcheck="false"
+                        style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                        tabindex="0"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class=" css-1hb7zxy-IndicatorsContainer"
+                  >
+                    <span
+                      class=" css-1okebmr-indicatorSeparator"
+                    />
+                    <div
+                      aria-hidden="true"
+                      class=" css-tlfecz-indicatorContainer"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="css-tj5bde-Svg"
+                        focusable="false"
+                        height="20"
+                        viewBox="0 0 20 20"
+                        width="20"
+                      >
+                        <path
+                          d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <input
+                  name="nameCategorySelector"
+                  type="hidden"
+                  value="0"
+                />
+              </div>
+            </div>
+            <div
+              class="d-grid gap-2"
+            >
+              <button
+                class="btn btn-success btn-lg"
+                data-testid="idSubmitButton"
+                disabled=""
+                id="idSubmitButton"
+                type="submit"
+              >
+                <i
+                  class="fas fa-database"
+                />
+                add
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="card"
+      >
+        <div
+          class="card-body"
+        >
+          <h5
+            class="title mb-3"
+          >
+            <span>
+              Product Editor
+            </span>
+            <div
+              class="spinner-border float-end"
+              role="status"
+            >
+              <span
+                class="visually-hidden"
+              >
+                loading...
+              </span>
+            </div>
+          </h5>
+          <form>
+            <div
+              class="form-group"
+            >
+              <label
+                for="nameName"
+              >
+                Name
+              </label>
+              <input
+                class="form-control"
+                data-testid="idName"
+                id="idName"
+                name="nameName"
+                required=""
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="form-group"
+            >
+              <label
+                for="namePrice"
+              >
+                Price
+              </label>
+              <input
+                class="form-control"
+                data-testid="idPrice"
+                id="idPrice"
+                max="200000"
+                min="0"
+                name="namePrice"
+                step="0.001"
+                type="number"
+                value="0"
+              />
+            </div>
+            <div
+              class="form-group"
+            >
+              <label
+                for="nameCategorySelector"
+              >
+                Category
+              </label>
+              <div
+                class="form-control css-b62m3t-container"
+                id="idCategorySelector"
+              >
+                <span
+                  class="css-1f43avz-a11yText-A11yText"
+                  id="react-select-4-live-region"
+                />
+                <span
+                  aria-atomic="false"
+                  aria-live="polite"
+                  aria-relevant="additions text"
+                  class="css-1f43avz-a11yText-A11yText"
+                />
+                <div
+                  class=" css-1s2u09g-control"
+                >
+                  <div
+                    class=" css-319lph-ValueContainer"
+                  >
+                    <div
+                      class=" css-qc6sy-singleValue"
+                    />
+                    <div
+                      class=" css-14dclt2-Input"
+                      data-value=""
+                    >
+                      <input
+                        aria-autocomplete="list"
+                        aria-controls="react-select-4-listbox"
+                        aria-expanded="false"
+                        aria-haspopup="true"
+                        aria-owns="react-select-4-listbox"
+                        autocapitalize="none"
+                        autocomplete="off"
+                        autocorrect="off"
+                        class=""
+                        id="react-select-4-input"
+                        role="combobox"
+                        spellcheck="false"
+                        style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                        tabindex="0"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class=" css-1hb7zxy-IndicatorsContainer"
+                  >
+                    <span
+                      class=" css-1okebmr-indicatorSeparator"
+                    />
+                    <div
+                      aria-hidden="true"
+                      class=" css-tlfecz-indicatorContainer"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="css-tj5bde-Svg"
+                        focusable="false"
+                        height="20"
+                        viewBox="0 0 20 20"
+                        width="20"
+                      >
+                        <path
+                          d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <input
+                  name="nameCategorySelector"
+                  type="hidden"
+                  value="0"
+                />
+              </div>
+            </div>
+            <div
+              class="d-grid gap-2"
+            >
+              <button
+                class="btn btn-success btn-lg"
+                data-testid="idSubmitButton"
+                disabled=""
+                id="idSubmitButton"
+                type="submit"
+              >
+                <i
+                  class="fas fa-database"
+                />
+                add
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="card"
+    >
+      <div
+        class="card-body"
+      >
+        <h5
+          class="title mb-3"
+        >
+          <span>
+            Product Editor
+          </span>
+          <div
+            class="spinner-border float-end"
+            role="status"
+          >
+            <span
+              class="visually-hidden"
+            >
+              loading...
+            </span>
+          </div>
+        </h5>
+        <form>
+          <div
+            class="form-group"
+          >
+            <label
+              for="nameName"
+            >
+              Name
+            </label>
+            <input
+              class="form-control"
+              data-testid="idName"
+              id="idName"
+              name="nameName"
+              required=""
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="form-group"
+          >
+            <label
+              for="namePrice"
+            >
+              Price
+            </label>
+            <input
+              class="form-control"
+              data-testid="idPrice"
+              id="idPrice"
+              max="200000"
+              min="0"
+              name="namePrice"
+              step="0.001"
+              type="number"
+              value="0"
+            />
+          </div>
+          <div
+            class="form-group"
+          >
+            <label
+              for="nameCategorySelector"
+            >
+              Category
+            </label>
+            <div
+              class="form-control css-b62m3t-container"
+              id="idCategorySelector"
+            >
+              <span
+                class="css-1f43avz-a11yText-A11yText"
+                id="react-select-4-live-region"
+              />
+              <span
+                aria-atomic="false"
+                aria-live="polite"
+                aria-relevant="additions text"
+                class="css-1f43avz-a11yText-A11yText"
+              />
+              <div
+                class=" css-1s2u09g-control"
+              >
+                <div
+                  class=" css-319lph-ValueContainer"
+                >
+                  <div
+                    class=" css-qc6sy-singleValue"
+                  />
+                  <div
+                    class=" css-14dclt2-Input"
+                    data-value=""
+                  >
+                    <input
+                      aria-autocomplete="list"
+                      aria-controls="react-select-4-listbox"
+                      aria-expanded="false"
+                      aria-haspopup="true"
+                      aria-owns="react-select-4-listbox"
+                      autocapitalize="none"
+                      autocomplete="off"
+                      autocorrect="off"
+                      class=""
+                      id="react-select-4-input"
+                      role="combobox"
+                      spellcheck="false"
+                      style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                      tabindex="0"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class=" css-1hb7zxy-IndicatorsContainer"
+                >
+                  <span
+                    class=" css-1okebmr-indicatorSeparator"
+                  />
+                  <div
+                    aria-hidden="true"
+                    class=" css-tlfecz-indicatorContainer"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="css-tj5bde-Svg"
+                      focusable="false"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      width="20"
+                    >
+                      <path
+                        d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <input
+                name="nameCategorySelector"
+                type="hidden"
+                value="0"
+              />
+            </div>
+          </div>
+          <div
+            class="d-grid gap-2"
+          >
+            <button
+              class="btn btn-success btn-lg"
+              data-testid="idSubmitButton"
+              disabled=""
+              id="idSubmitButton"
+              type="submit"
+            >
+              <i
+                class="fas fa-database"
+              />
+              add
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`check if click on add in ProductEditor triggers mockServerAddProduct and mockServerGetProducts and sends new list to ProductList 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="card"
+      >
+        <div
+          class="card-body"
+        >
+          <h5
+            class="title mb-3"
+          >
+            <span>
+              Product Editor
+            </span>
+          </h5>
+          <form>
+            <div
+              class="form-group"
+            >
+              <label
+                for="nameName"
+              >
+                Name
+              </label>
+              <input
+                class="form-control"
+                data-testid="idName"
+                id="idName"
+                name="nameName"
+                required=""
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="form-group"
+            >
+              <label
+                for="namePrice"
+              >
+                Price
+              </label>
+              <input
+                class="form-control"
+                data-testid="idPrice"
+                id="idPrice"
+                max="200000"
+                min="0"
+                name="namePrice"
+                step="0.001"
+                type="number"
+                value="0"
+              />
+            </div>
+            <div
+              class="form-group"
+            >
+              <label
+                for="nameCategorySelector"
+              >
+                Category
+              </label>
+              <div
+                class="form-control css-b62m3t-container"
+                id="idCategorySelector"
+              >
+                <span
+                  class="css-1f43avz-a11yText-A11yText"
+                  id="react-select-7-live-region"
+                />
+                <span
+                  aria-atomic="false"
+                  aria-live="polite"
+                  aria-relevant="additions text"
+                  class="css-1f43avz-a11yText-A11yText"
+                />
+                <div
+                  class=" css-1s2u09g-control"
+                >
+                  <div
+                    class=" css-319lph-ValueContainer"
+                  >
+                    <div
+                      class=" css-qc6sy-singleValue"
+                    />
+                    <div
+                      class=" css-14dclt2-Input"
+                      data-value=""
+                    >
+                      <input
+                        aria-autocomplete="list"
+                        aria-controls="react-select-7-listbox"
+                        aria-expanded="false"
+                        aria-haspopup="true"
+                        aria-owns="react-select-7-listbox"
+                        autocapitalize="none"
+                        autocomplete="off"
+                        autocorrect="off"
+                        class=""
+                        id="react-select-7-input"
+                        role="combobox"
+                        spellcheck="false"
+                        style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                        tabindex="0"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class=" css-1hb7zxy-IndicatorsContainer"
+                  >
+                    <span
+                      class=" css-1okebmr-indicatorSeparator"
+                    />
+                    <div
+                      aria-hidden="true"
+                      class=" css-tlfecz-indicatorContainer"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="css-tj5bde-Svg"
+                        focusable="false"
+                        height="20"
+                        viewBox="0 0 20 20"
+                        width="20"
+                      >
+                        <path
+                          d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <input
+                  name="nameCategorySelector"
+                  type="hidden"
+                  value="0"
+                />
+              </div>
+            </div>
+            <div
+              class="d-grid gap-2"
+            >
+              <button
+                class="btn btn-success btn-lg"
+                data-testid="idSubmitButton"
+                disabled=""
+                id="idSubmitButton"
+                type="submit"
+              >
+                <i
+                  class="fas fa-database"
+                />
+                add
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="card"
+    >
+      <div
+        class="card-body"
+      >
+        <h5
+          class="title mb-3"
+        >
+          <span>
+            Product Editor
+          </span>
+        </h5>
+        <form>
+          <div
+            class="form-group"
+          >
+            <label
+              for="nameName"
+            >
+              Name
+            </label>
+            <input
+              class="form-control"
+              data-testid="idName"
+              id="idName"
+              name="nameName"
+              required=""
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="form-group"
+          >
+            <label
+              for="namePrice"
+            >
+              Price
+            </label>
+            <input
+              class="form-control"
+              data-testid="idPrice"
+              id="idPrice"
+              max="200000"
+              min="0"
+              name="namePrice"
+              step="0.001"
+              type="number"
+              value="0"
+            />
+          </div>
+          <div
+            class="form-group"
+          >
+            <label
+              for="nameCategorySelector"
+            >
+              Category
+            </label>
+            <div
+              class="form-control css-b62m3t-container"
+              id="idCategorySelector"
+            >
+              <span
+                class="css-1f43avz-a11yText-A11yText"
+                id="react-select-7-live-region"
+              />
+              <span
+                aria-atomic="false"
+                aria-live="polite"
+                aria-relevant="additions text"
+                class="css-1f43avz-a11yText-A11yText"
+              />
+              <div
+                class=" css-1s2u09g-control"
+              >
+                <div
+                  class=" css-319lph-ValueContainer"
+                >
+                  <div
+                    class=" css-qc6sy-singleValue"
+                  />
+                  <div
+                    class=" css-14dclt2-Input"
+                    data-value=""
+                  >
+                    <input
+                      aria-autocomplete="list"
+                      aria-controls="react-select-7-listbox"
+                      aria-expanded="false"
+                      aria-haspopup="true"
+                      aria-owns="react-select-7-listbox"
+                      autocapitalize="none"
+                      autocomplete="off"
+                      autocorrect="off"
+                      class=""
+                      id="react-select-7-input"
+                      role="combobox"
+                      spellcheck="false"
+                      style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                      tabindex="0"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class=" css-1hb7zxy-IndicatorsContainer"
+                >
+                  <span
+                    class=" css-1okebmr-indicatorSeparator"
+                  />
+                  <div
+                    aria-hidden="true"
+                    class=" css-tlfecz-indicatorContainer"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="css-tj5bde-Svg"
+                      focusable="false"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      width="20"
+                    >
+                      <path
+                        d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <input
+                name="nameCategorySelector"
+                type="hidden"
+                value="0"
+              />
+            </div>
+          </div>
+          <div
+            class="d-grid gap-2"
+          >
+            <button
+              class="btn btn-success btn-lg"
+              data-testid="idSubmitButton"
+              disabled=""
+              id="idSubmitButton"
+              type="submit"
+            >
+              <i
+                class="fas fa-database"
+              />
+              add
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`check if click on edit in ProdutList and click on save in ProductEditor triggers mockServerUpdateProduct and mockServerGetProducts and sends new list to ProductList 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="card"
+      >
+        <div
+          class="card-body"
+        >
+          <h5
+            class="title mb-3"
+          >
+            <span>
+              Product Editor
+            </span>
+          </h5>
+          <form>
+            <div
+              class="form-group"
+            >
+              <label
+                for="nameName"
+              >
+                Name
+              </label>
+              <input
+                class="form-control"
+                data-testid="idName"
+                id="idName"
+                name="nameName"
+                required=""
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="form-group"
+            >
+              <label
+                for="namePrice"
+              >
+                Price
+              </label>
+              <input
+                class="form-control"
+                data-testid="idPrice"
+                id="idPrice"
+                max="200000"
+                min="0"
+                name="namePrice"
+                step="0.001"
+                type="number"
+                value="0"
+              />
+            </div>
+            <div
+              class="form-group"
+            >
+              <label
+                for="nameCategorySelector"
+              >
+                Category
+              </label>
+              <div
+                class="form-control css-b62m3t-container"
+                id="idCategorySelector"
+              >
+                <span
+                  class="css-1f43avz-a11yText-A11yText"
+                  id="react-select-6-live-region"
+                />
+                <span
+                  aria-atomic="false"
+                  aria-live="polite"
+                  aria-relevant="additions text"
+                  class="css-1f43avz-a11yText-A11yText"
+                />
+                <div
+                  class=" css-1s2u09g-control"
+                >
+                  <div
+                    class=" css-319lph-ValueContainer"
+                  >
+                    <div
+                      class=" css-qc6sy-singleValue"
+                    />
+                    <div
+                      class=" css-14dclt2-Input"
+                      data-value=""
+                    >
+                      <input
+                        aria-autocomplete="list"
+                        aria-controls="react-select-6-listbox"
+                        aria-expanded="false"
+                        aria-haspopup="true"
+                        aria-owns="react-select-6-listbox"
+                        autocapitalize="none"
+                        autocomplete="off"
+                        autocorrect="off"
+                        class=""
+                        id="react-select-6-input"
+                        role="combobox"
+                        spellcheck="false"
+                        style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                        tabindex="0"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class=" css-1hb7zxy-IndicatorsContainer"
+                  >
+                    <span
+                      class=" css-1okebmr-indicatorSeparator"
+                    />
+                    <div
+                      aria-hidden="true"
+                      class=" css-tlfecz-indicatorContainer"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="css-tj5bde-Svg"
+                        focusable="false"
+                        height="20"
+                        viewBox="0 0 20 20"
+                        width="20"
+                      >
+                        <path
+                          d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <input
+                  name="nameCategorySelector"
+                  type="hidden"
+                  value="0"
+                />
+              </div>
+            </div>
+            <div
+              class="d-grid gap-2"
+            >
+              <button
+                class="btn btn-success btn-lg"
+                data-testid="idSubmitButton"
+                disabled=""
+                id="idSubmitButton"
+                type="submit"
+              >
+                <i
+                  class="fas fa-database"
+                />
+                add
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="card"
+    >
+      <div
+        class="card-body"
+      >
+        <h5
+          class="title mb-3"
+        >
+          <span>
+            Product Editor
+          </span>
+        </h5>
+        <form>
+          <div
+            class="form-group"
+          >
+            <label
+              for="nameName"
+            >
+              Name
+            </label>
+            <input
+              class="form-control"
+              data-testid="idName"
+              id="idName"
+              name="nameName"
+              required=""
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="form-group"
+          >
+            <label
+              for="namePrice"
+            >
+              Price
+            </label>
+            <input
+              class="form-control"
+              data-testid="idPrice"
+              id="idPrice"
+              max="200000"
+              min="0"
+              name="namePrice"
+              step="0.001"
+              type="number"
+              value="0"
+            />
+          </div>
+          <div
+            class="form-group"
+          >
+            <label
+              for="nameCategorySelector"
+            >
+              Category
+            </label>
+            <div
+              class="form-control css-b62m3t-container"
+              id="idCategorySelector"
+            >
+              <span
+                class="css-1f43avz-a11yText-A11yText"
+                id="react-select-6-live-region"
+              />
+              <span
+                aria-atomic="false"
+                aria-live="polite"
+                aria-relevant="additions text"
+                class="css-1f43avz-a11yText-A11yText"
+              />
+              <div
+                class=" css-1s2u09g-control"
+              >
+                <div
+                  class=" css-319lph-ValueContainer"
+                >
+                  <div
+                    class=" css-qc6sy-singleValue"
+                  />
+                  <div
+                    class=" css-14dclt2-Input"
+                    data-value=""
+                  >
+                    <input
+                      aria-autocomplete="list"
+                      aria-controls="react-select-6-listbox"
+                      aria-expanded="false"
+                      aria-haspopup="true"
+                      aria-owns="react-select-6-listbox"
+                      autocapitalize="none"
+                      autocomplete="off"
+                      autocorrect="off"
+                      class=""
+                      id="react-select-6-input"
+                      role="combobox"
+                      spellcheck="false"
+                      style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                      tabindex="0"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class=" css-1hb7zxy-IndicatorsContainer"
+                >
+                  <span
+                    class=" css-1okebmr-indicatorSeparator"
+                  />
+                  <div
+                    aria-hidden="true"
+                    class=" css-tlfecz-indicatorContainer"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="css-tj5bde-Svg"
+                      focusable="false"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      width="20"
+                    >
+                      <path
+                        d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <input
+                name="nameCategorySelector"
+                type="hidden"
+                value="0"
+              />
+            </div>
+          </div>
+          <div
+            class="d-grid gap-2"
+          >
+            <button
+              class="btn btn-success btn-lg"
+              data-testid="idSubmitButton"
+              disabled=""
+              id="idSubmitButton"
+              type="submit"
+            >
+              <i
+                class="fas fa-database"
+              />
+              add
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`check if click on edit in ProdutList triggers renderization of product data in ProductEditor s form 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="card"
+      >
+        <div
+          class="card-body"
+        >
+          <h5
+            class="title mb-3"
+          >
+            <span>
+              Product Editor
+            </span>
+          </h5>
+          <form>
+            <div
+              class="form-group"
+            >
+              <label
+                for="nameName"
+              >
+                Name
+              </label>
+              <input
+                class="form-control"
+                data-testid="idName"
+                id="idName"
+                name="nameName"
+                required=""
+                type="text"
+                value="name01"
+              />
+            </div>
+            <div
+              class="form-group"
+            >
+              <label
+                for="namePrice"
+              >
+                Price
+              </label>
+              <input
+                class="form-control"
+                data-testid="idPrice"
+                id="idPrice"
+                max="200000"
+                min="0"
+                name="namePrice"
+                step="0.001"
+                type="number"
+                value="1"
+              />
+            </div>
+            <div
+              class="form-group"
+            >
+              <label
+                for="nameCategorySelector"
+              >
+                Category
+              </label>
+              <div
+                class="form-control css-b62m3t-container"
+                id="idCategorySelector"
+              >
+                <span
+                  class="css-1f43avz-a11yText-A11yText"
+                  id="react-select-5-live-region"
+                />
+                <span
+                  aria-atomic="false"
+                  aria-live="polite"
+                  aria-relevant="additions text"
+                  class="css-1f43avz-a11yText-A11yText"
+                />
+                <div
+                  class=" css-1s2u09g-control"
+                >
+                  <div
+                    class=" css-319lph-ValueContainer"
+                  >
+                    <div
+                      class=" css-qc6sy-singleValue"
+                    >
+                      name01
+                    </div>
+                    <div
+                      class=" css-14dclt2-Input"
+                      data-value=""
+                    >
+                      <input
+                        aria-autocomplete="list"
+                        aria-controls="react-select-5-listbox"
+                        aria-expanded="false"
+                        aria-haspopup="true"
+                        aria-owns="react-select-5-listbox"
+                        autocapitalize="none"
+                        autocomplete="off"
+                        autocorrect="off"
+                        class=""
+                        id="react-select-5-input"
+                        role="combobox"
+                        spellcheck="false"
+                        style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                        tabindex="0"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class=" css-1hb7zxy-IndicatorsContainer"
+                  >
+                    <span
+                      class=" css-1okebmr-indicatorSeparator"
+                    />
+                    <div
+                      aria-hidden="true"
+                      class=" css-tlfecz-indicatorContainer"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="css-tj5bde-Svg"
+                        focusable="false"
+                        height="20"
+                        viewBox="0 0 20 20"
+                        width="20"
+                      >
+                        <path
+                          d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <input
+                  name="nameCategorySelector"
+                  type="hidden"
+                  value="id01"
+                />
+              </div>
+            </div>
+            <div
+              class="d-grid gap-2"
+            >
+              <button
+                class="btn btn-success btn-lg"
+                data-testid="idSubmitButton"
+                id="idSubmitButton"
+                type="submit"
+              >
+                <i
+                  class="fas fa-database"
+                />
+                savechanges
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="card"
+    >
+      <div
+        class="card-body"
+      >
+        <h5
+          class="title mb-3"
+        >
+          <span>
+            Product Editor
+          </span>
+        </h5>
+        <form>
+          <div
+            class="form-group"
+          >
+            <label
+              for="nameName"
+            >
+              Name
+            </label>
+            <input
+              class="form-control"
+              data-testid="idName"
+              id="idName"
+              name="nameName"
+              required=""
+              type="text"
+              value="name01"
+            />
+          </div>
+          <div
+            class="form-group"
+          >
+            <label
+              for="namePrice"
+            >
+              Price
+            </label>
+            <input
+              class="form-control"
+              data-testid="idPrice"
+              id="idPrice"
+              max="200000"
+              min="0"
+              name="namePrice"
+              step="0.001"
+              type="number"
+              value="1"
+            />
+          </div>
+          <div
+            class="form-group"
+          >
+            <label
+              for="nameCategorySelector"
+            >
+              Category
+            </label>
+            <div
+              class="form-control css-b62m3t-container"
+              id="idCategorySelector"
+            >
+              <span
+                class="css-1f43avz-a11yText-A11yText"
+                id="react-select-5-live-region"
+              />
+              <span
+                aria-atomic="false"
+                aria-live="polite"
+                aria-relevant="additions text"
+                class="css-1f43avz-a11yText-A11yText"
+              />
+              <div
+                class=" css-1s2u09g-control"
+              >
+                <div
+                  class=" css-319lph-ValueContainer"
+                >
+                  <div
+                    class=" css-qc6sy-singleValue"
+                  >
+                    name01
+                  </div>
+                  <div
+                    class=" css-14dclt2-Input"
+                    data-value=""
+                  >
+                    <input
+                      aria-autocomplete="list"
+                      aria-controls="react-select-5-listbox"
+                      aria-expanded="false"
+                      aria-haspopup="true"
+                      aria-owns="react-select-5-listbox"
+                      autocapitalize="none"
+                      autocomplete="off"
+                      autocorrect="off"
+                      class=""
+                      id="react-select-5-input"
+                      role="combobox"
+                      spellcheck="false"
+                      style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                      tabindex="0"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class=" css-1hb7zxy-IndicatorsContainer"
+                >
+                  <span
+                    class=" css-1okebmr-indicatorSeparator"
+                  />
+                  <div
+                    aria-hidden="true"
+                    class=" css-tlfecz-indicatorContainer"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="css-tj5bde-Svg"
+                      focusable="false"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      width="20"
+                    >
+                      <path
+                        d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <input
+                name="nameCategorySelector"
+                type="hidden"
+                value="id01"
+              />
+            </div>
+          </div>
+          <div
+            class="d-grid gap-2"
+          >
+            <button
+              class="btn btn-success btn-lg"
+              data-testid="idSubmitButton"
+              id="idSubmitButton"
+              type="submit"
+            >
+              <i
+                class="fas fa-database"
+              />
+              savechanges
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
